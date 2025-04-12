@@ -19,7 +19,7 @@ Add this to your `pom.xml`:
 
 <dependency>
   <groupId>com.querybuilder</groupId>
-  <artifactId>smart-query-builder-spring-boot-starter</artifactId>
+  <artifactId>querybuilder-spring-boot-starter</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
