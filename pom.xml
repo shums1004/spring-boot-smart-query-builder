@@ -12,6 +12,14 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/shums1004/spring-boot-smart-query-builder</url>
+        </repository>
+    </distributionManagement>
+
     <modules>
         <module>smart-query-builder</module>
         <module>querybuilder-spring-boot-starter</module>
